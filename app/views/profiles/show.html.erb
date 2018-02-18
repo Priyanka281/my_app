@@ -1,0 +1,20 @@
+<h>Show.html</h>
+<br>
+
+<p> Name : 
+<%= @profile.name %>
+</p>
+
+<p> Phone :
+<%= @profile.phone %>
+</p>
+
+
+<%= link_to 'Back', new_profile_path %>
+<br>
+<%= link_to 'Index', profiles_path  %>
+<br>
+<%= link_to 'Edit', edit_profile_path(:name)  %>
+
+
+
